@@ -1,0 +1,55 @@
+:root {
+    user-select: none;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+main {
+    overflow-y: scroll;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    margin-left: 5rem;
+}
+
+section {
+    scroll-snap-align: start;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav {
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0.5em;
+    padding-bottom: 0;
+}
+
+p {
+    margin-right: 1em;
+}
+
+.nav-item {
+    padding-bottom: 1em;
+}
+
+.navbar {
+    margin: 1em;
+    width: 3rem;
+    position: fixed;
+    top: 25%;
+    border-radius: 2em;
+    background-color: #23232e;
+}
