@@ -52,3 +52,15 @@ p {
     border-radius: 2em;
     background-color: #23232e;
 }
+
+.grid-item-about {
+    text-align: center;
+}
+
+.grid-item-title {
+    text-align: center;
+}
+
+.bg {
+    padding: 0%;
+}
